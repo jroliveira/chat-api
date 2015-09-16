@@ -1,0 +1,26 @@
+{
+  "name": "chat-api",
+  "version": "0.0.1",
+  "description": "chat-api",
+  "homepage": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/junioro/chat-api.git"
+  },
+  "engines": {
+    "node": ">=0.11.14"
+  },
+  "scripts": {
+    "start": "node --harmony src/app.js"
+  },
+  "dependencies": {
+    "express": "3.4.4",
+    "mongoose": "3.8.4",
+    "mongodb": "1.3.23",
+    "socket.io": "0.9.16",
+    "bcrypt-nodejs": "0.0.3",
+    "passport": "0.2.0",
+    "passport-local": "1.0.0",
+    "connect-flash": "0.1.1"
+  }
+}
